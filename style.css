@@ -1,0 +1,13 @@
+body *{
+}
+
+.container {
+}
+
+.square {
+	height: 40px;
+	aspect-ratio: 1 / 1;
+	background-color: red;
+	margin: 2px;
+	display: inline-block;
+}
