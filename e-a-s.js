@@ -4,7 +4,7 @@ while (j < 16) {
 	const container = document.querySelector('#container');
 	const row = document.createElement('div');
 	row.setAttribute('id', 'row');
-
+	row.className = "row";
 	row.id="row" + String(j);
 
 	container.appendChild(row);
