@@ -23,6 +23,16 @@ while (j < 16) {
 
 		row.appendChild(square);
 
+		/* Hovering effect */
+		square.addEventListener("mouseover", event => {
+			square.style.background = 'pink';
+		});
+
+		square.addEventListener("mouseout", event => {
+			square.style.background = 'red';
+		});
+		/* End hovering effect */
+
 		i += 1;
 	}
 
